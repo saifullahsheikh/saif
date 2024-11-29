@@ -16,16 +16,16 @@ const Header = () => {
     <div data-scroll data-scroll-speed="-.1" data-scroll-section  className='p-5 w-full  max-md:p-0 bg-[#FFD957] max-md:flex-col max-md:items-start flex  items-center justify-between'>
     <div  className='max-md:w-full max-md:flex max-md:justify-between max-md:items-center justify-between max-md:p-5'>
     <img src={logo} alt="" className='max-md:w-[40%]'/>
-    <RxHamburgerMenu    onClick={toggleMenu}  className={`${isMenuOpen ? "shadow" :''}  w-[15%] hidden max-md:inline border-2 border-[#212121] rounded-lg cursor-pointer	 py-[5px] text-black text-5xl`}/>
+    <RxHamburgerMenu    onClick={toggleMenu}  className={`${isMenuOpen ? "shadow" :''}  w-[60px] h-[40px] hidden max-md:inline border-2 border-[#212121] rounded-lg cursor-pointer	 py-[5px] text-black text-5xl`}/>
 
     </div>
 
     <div
         className={`${
-          isMenuOpen ? "max-md:flex" : "max-md:hidden"
-        }  flex max-md:flex-col max-md:sticky max-md:z-[99] max-md:w-full max-md:justify-start  max-md:p-5 menu justify-between w-[70%]`}
+          isMenuOpen ? "max-md:flex showmenu" : "max-md:hidden max-md:opacity-0	"
+        }  flex max-md:flex-col     max-md:w-full max-md:justify-start  max-md:p-5 menu justify-between w-[70%]`}
       >
-    <div className='max-md:gap-5 gap-10 flex  max-md:flex-col justify-center items-center max-md:justify-start max-md:items-start'>
+    <div className='max-md:gap-5  gap-10 flex  max-md:flex-col justify-center items-center max-md:justify-start max-md:items-start'>
     <a href="/" className='link '>
       
         <div className=''>Home</div>

@@ -5,6 +5,7 @@ import Millersauto from '../assets/millersauto.png'
 import Toomercpa from '../assets/toomercpa.png'
 import Fluxzos from '../assets/fluzosC.png'
 import Webfxcloe from '../assets/webfxcloe,png.png'
+import Ochi from '../assets/ochi clone.png'
 
 import { IoIosArrowRoundForward } from "react-icons/io";
 
@@ -14,7 +15,7 @@ const Portfolio = () => {
    
   return (
    <>
-    <div className=' z-30  relative'  id='portfolio'>
+    <div className=' z-30 max-md:bg-white  relative'  id='portfolio'>
 
       <div className='px-10 pt-5 pb-5 border-b-2 max-md:px-5'>
       <h2 className='text-4xl font-bold'>
@@ -77,9 +78,9 @@ const Portfolio = () => {
      <div className='h-[80vh] rounded-2xl p-5  max-md:h-[60vh] max-md:pb-10 max-md:px-0'>
      <div className='flex mb-3  items-center gap-5'> <div className='w-[10px] h-[10px] bg-zinc-900 rounded-full'></div> <h2 className=' '>Personal Trainer</h2></div>
      <div className='border-2 h-[80%] rounded-2xl overflow-hidden'>
-        <img src={Trainer} alt="" className='rounded-2xl 	scale  h-[100%] object-cover w-full' />
+        <img src={Ochi} alt="" className='object-top rounded-2xl 	scale  h-[100%] object-cover w-full' />
         </div>
-        <button className='rounded-full border-[1px] border-zinc-900 px-5 py-1 mt-3 btn'>See Website</button>
+        <a href="https://saifullahsheikh.github.io/ochi-clone/" target='_blank'><button className='rounded-full border-[1px] border-zinc-900 px-5 py-1 mt-3 btn'>See Website</button></a>
      </div>
               </div>
    

@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div data-scroll data-scroll-speed="-.3" data-scroll-section className='h-[90vh] max-md:h-full bg-[#FFD957] w-full'>
    
 
-   <div className='flex max-md:flex-col h-full'>
+   <div className='flex max-md:flex-col h-full '>
      
    <div className='w-1/2  max-md:w-full  max-md:px-5 p-10 flex flex-col justify-center'>
    <h1 className='  text-5xl max-md:text-4xl  text-[#262E33] font-semibold leading-[60px]'>Hello I'm Saifullah sheikh a Wordpress &
@@ -14,12 +14,12 @@ const HeroSection = () => {
 
    <div className='flex gap-5 mt-5'>
   <a href="#contact">
-  <button className='py-3  px-10  bg-[#000] btn hover:bg-transparent hover:text-black border-[1px] border-zinc-900  text-white '>
+  <button className='py-3  px-10  bg-[#000] btn hover:bg-transparent hover:text-black border-[1px] border-zinc-900  text-white max-md:text-[14px]'>
       Let's Talk
     </button>
   </a>
    <a href="#portfolio">
-   <button className='py-3 py-3  px-10  hover:bg-[#000] btn hover:text-white  border-[1px] border-zinc-900'>
+   <button className='max-md:text-[14px] py-3 py-3  px-10  hover:bg-[#000] btn hover:text-white  border-[1px] border-zinc-900'>
      Portfolio
     </button>
    </a>

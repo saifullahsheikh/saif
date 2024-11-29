@@ -15,11 +15,11 @@ const Footer = () => {
   
 
    <div className='flex gap-5 mt-5'>
- <a href="#contact">  <button className='py-3  px-10 text-black bg-[#FFD957] hover:bg-transparent hover:text-black border-[1px] border-zinc-900 hover:text-white hover:border-white btn'>
+ <a href="#contact">  <button className='max-md:text-[14px] py-3  px-10 text-black bg-[#FFD957] hover:bg-transparent hover:text-black border-[1px] border-zinc-900 hover:text-white hover:border-white btn'>
       Let's Talk
     </button></a>
     <a href="mailto:saifullahsheikh025@gmail.com">
-    <button className='py-3 py-3  px-10  hover:bg-[#FFD957] hover:text-black text-white border-[1px] border-zinc-100 btn'>
+    <button className='max-md:text-[14px] py-3 py-3  px-10  hover:bg-[#FFD957] hover:text-black text-white border-[1px] border-zinc-100 btn'>
    Email me
     </button>
     </a>
@@ -41,7 +41,7 @@ const Footer = () => {
   </div>
 
   <div className='text-[#ffffff7d] mt-5 pt-5 text-center border-t-2 border-[#ffffff7d]'>
-   Copy right 2024  Saifullah sheikh | ALL Rights Reserved.
+   Copy right 2024  Saifullah sheikh | ALL Rights Reserved. <a href="mailto:saifullahsheikh025@gmail.com" className='text-white'>saifullahsheikh025@gmail.com</a>
   </div>
  
     </div>

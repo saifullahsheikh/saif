@@ -23,7 +23,27 @@ body{
 }
 
 
+.showmenu{
+  transition: opacity .35s cubic-bezier(.3,.86,.36,.95);
 
+    transition:cubic-bezier(.3,.86,.36,.95);
+    opacity: 1;
+    animation: anim 3s;
+    /* color: white; */
+}
+@keyframes anim {
+  0%{
+    height:0vh;
+  }
+  
+   /* 50%{
+  height:30vh;
+   }  */
+   
+   100%{
+    height:50vh;
+   }
+}
 
 
 .link:after {
