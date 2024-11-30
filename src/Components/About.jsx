@@ -13,7 +13,7 @@ const About = () => {
      <h2 className='  text-5xl text-gray-800 font-medium mb-6'>
      About Me
      </h2>
-     <p className='text-lg max-md:text-[16px] text-gray-600 md:mb-10 mb-4 leading-[90px] max-md:leading-[30px] max-md:text-2xl  font-light'>
+     <p className='text-lg max-md:text-[16px] text-gray-600 md:mb-10 mb-4 leading-[35px] max-md:leading-[30px] max-md:text-2xl  font-light'>
      Hey there! I'm Saifullah Sheikh, a Frontend Developer and WordPress Specialist from Sindh, Pakistan. With over 2 years of experience, I excel in building and customizing websites using modern technologies like HTML, CSS, JavaScript, React.js, and WordPress. Alongside my work, I’m passionate about creating clean, visually appealing, and highly functional web solutions. Staying updated with the latest trends in tech fuels my drive to continuously learn and grow as a developer!
      </p>
    <div>
