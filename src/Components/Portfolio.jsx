@@ -75,8 +75,19 @@ const Portfolio = () => {
         <button className='rounded-full border-[1px] border-zinc-900 px-5 py-1 mt-3 flex btn--default btn'>See Website 
         </button></a>
      </div>
+
+                   <div className='h-[80vh] rounded-2xl p-5  max-md:h-[60vh] max-md:pb-10 max-md:px-0'>
+     <div className='flex mb-3  items-center gap-5'> <div className='w-[10px] h-[10px] bg-zinc-900 rounded-full'></div> <h2 className=' '>Vehicle Recycling Based</h2></div>
+     <div className='border-2 h-[80%] rounded-2xl overflow-hidden'>
+        <img src={Millersauto} alt="" className='object-top rounded-2xl 	scale  h-[100%] object-cover w-full' />
+        </div>
+        <a href="https://www.millersauto.com/" target='_blank'>
+        <button className='rounded-full border-[1px] border-zinc-900 px-5 py-1 mt-3 flex btn--default btn'>See Website 
+        </button></a>
+     </div>
+                 
      <div className='h-[80vh] rounded-2xl p-5  max-md:h-[60vh] max-md:pb-10 max-md:px-0'>
-     <div className='flex mb-3  items-center gap-5'> <div className='w-[10px] h-[10px] bg-zinc-900 rounded-full'></div> <h2 className=' '>Personal Trainer</h2></div>
+     <div className='flex mb-3  items-center gap-5'> <div className='w-[10px] h-[10px] bg-zinc-900 rounded-full'></div> <h2 className=' '>Ochi Clone</h2></div>
      <div className='border-2 h-[80%] rounded-2xl overflow-hidden'>
         <img src={Ochi} alt="" className='object-top rounded-2xl 	scale  h-[100%] object-cover w-full' />
         </div>
