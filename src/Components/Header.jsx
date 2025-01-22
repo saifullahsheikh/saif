@@ -26,7 +26,7 @@ const Header = () => {
         }  flex max-md:flex-col     max-md:w-full max-md:justify-start  max-md:p-5 menu justify-between w-[70%]`}
       >
     <div className='max-md:gap-5  gap-10 flex  max-md:flex-col justify-center items-center max-md:justify-start max-md:items-start'>
-    <a href="/" className='link '>
+    <a href="saifullahsheikh.github.io/saif/" className='link '>
       
         <div className=''>Home</div>
      
